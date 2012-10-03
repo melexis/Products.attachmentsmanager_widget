@@ -7,12 +7,12 @@
 
 
   <genericsetup:registerProfile
-      name="default"
-      title="Products.attachmentsmanager_widget"
+      name="Products.attachmentsmanager_widget"
+      title="Attachments Manager Widget"
       directory="profiles/default"
       description="Installs the Products.attachmentsmanager_widget package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
   <!-- -*- extra stuff goes here -*- -->
-  
+
 </configure>

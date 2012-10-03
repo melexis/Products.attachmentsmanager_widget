@@ -8,9 +8,9 @@
 
  <object name="attachmentsmanager_widget"
          meta_type="Filesystem Directory View"
-         directory="attachmentsmanager_widget/skins/attachmentsmanager_widget"/>
+         directory="Products.attachmentsmanager_widget:skins/attachmentsmanager_widget"/>
 
- <skin-path name="*">
+ <skin-path name="attachmentsmanager_widget">
   <layer insert-after="custom"
          name="attachmentsmanager_widget"/>
  </skin-path>

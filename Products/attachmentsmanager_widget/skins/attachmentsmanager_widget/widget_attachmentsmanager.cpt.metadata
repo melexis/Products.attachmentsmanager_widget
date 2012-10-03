@@ -1,0 +1,8 @@
+[validators]
+validators=
+
+[actions]
+action.success..UploadAttachment=traverse_to:string:widget_attachmentsmanager_upload
+action.success..RenameAttachments=traverse_to:string:widget_attachmentsmanager_rename
+action.success..MoveAttachment=traverse_to:string:widget_attachmentsmanager_move
+action.success..DeleteAttachment=traverse_to:string:widget_attachmentsmanager_delete

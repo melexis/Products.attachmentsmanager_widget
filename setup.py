@@ -25,8 +25,9 @@ setup(name='Products.attachmentsmanager_widget',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          # -*- Extra requirements: -*-
-          Products.Archetype
+          'Products.CMFCore',
+          'Products.GenericSetup',
+          'Products.CMFPlone',
       ],
       entry_points="""
       # -*- Entry points: -*-
@@ -34,6 +35,4 @@ setup(name='Products.attachmentsmanager_widget',
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      setup_requires=["PasteScript"],
-      paster_plugins=["ZopeSkel"],
       )
