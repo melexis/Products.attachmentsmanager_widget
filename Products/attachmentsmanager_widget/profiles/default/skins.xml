@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<object name="portal_skins"
+        meta_type="Plone Skins Tool"
+        allow_any="False"
+        cookie_persistence="False"
+        request_varname="plone_skin">
+
+ <object name="attachmentsmanager_widget"
+         meta_type="Filesystem Directory View"
+         directory="attachmentsmanager_widget/skins/attachmentsmanager_widget"/>
+
+ <skin-path name="*">
+  <layer insert-after="custom"
+         name="attachmentsmanager_widget"/>
+ </skin-path>
+
+</object>
